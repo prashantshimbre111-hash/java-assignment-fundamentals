@@ -3,7 +3,7 @@ package assignments.java_practice.ifelseassg;
 public class gradecalculator {
 	public static void main(String[] args) {
 		
-		int marks = 96;
+		int marks = 99;
 		
 		if(marks>=90) {
 			System.out.println("A grade");
