@@ -8,15 +8,18 @@ public class raisedtopower {
 		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("enter number : ");
-		int input = sc.nextInt();
+		System.out.println("enter number base number : ");
+		int og = sc.nextInt();
+		System.out.println("please enter raise to power number :");
+		int raise = sc.nextInt();
 		
-		int r2p = 1 ;
-		for(int i = 1 ; i <=input ; i++) {
+		int result = 1;
 			
-			r2p = r2p*+input;
-		}
-		System.out.println(r2p);
+		for(int i = 1 ; i<=raise ; i++) {
+			result = result*og;	
+			
+			}
+	System.out.println(result);
 	}
 
 }
