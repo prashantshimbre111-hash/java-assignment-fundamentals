@@ -1,6 +1,6 @@
 package Loops.forloop;
 
-public class alpha {
+public class alphaaz {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
