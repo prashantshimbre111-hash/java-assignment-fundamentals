@@ -5,7 +5,7 @@ public class Cubes {
 		
 		for (int i = 1 ; i <=100 ; i++) {
 			int cube = i*i*i;
-			System.out.println(cube);
+			System.out.println("cube of " + i + ":" + cube);
 		}
 		
 		
