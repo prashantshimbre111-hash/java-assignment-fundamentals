@@ -10,11 +10,11 @@ public class Cubewithinput {
 		System.out.println("enter number here");
 		int n = sc.nextInt();
 		
-		for (int i = 0 ; i<=n ; i++) {
+		for (int i = 1 ; i<=n ; i++) {
 			
 			int cube = i*i*i;
 			
-			System.out.println(cube);
+			System.out.println("cube of " + i + ": " +  cube);
 		}
 
 	}
