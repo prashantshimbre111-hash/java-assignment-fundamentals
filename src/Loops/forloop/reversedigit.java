@@ -23,8 +23,8 @@ public class reversedigit {
 
 			// input%10 means each time the loop will run he cutoff the last digit of input
 			int last = input % 10;
-			//if input is 1234 the 0*10+1234= 4
 			
+			//if input is 1234 the 0*10+1234= 4
 			result = result * 10 + last;
 		// in second loop it will give value without 4
 			input = input / 10;
