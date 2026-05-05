@@ -1,4 +1,4 @@
-package Parameterizedconstructor;
+package ParameterizedconstructorQues1;
 
 public class Animal {
 
